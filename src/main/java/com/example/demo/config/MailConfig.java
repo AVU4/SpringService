@@ -20,7 +20,7 @@ public class MailConfig {
         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
         mailSender.setHost("smtp.mail.ru");
         mailSender.setPort(465);
-        mailSender.setUsername("lexa200004@mail.ru");
+        mailSender.setUsername("******@mail.ru");
         mailSender.setPassword("********");
 
         Properties props = mailSender.getJavaMailProperties();
